@@ -27,7 +27,7 @@
 
 package impl.jfxtras.styles.jmetro8;
 
-import com.sun.javafx.css.converters.BooleanConverter;
+import javafx.css.converter.BooleanConverter;
 import com.sun.javafx.scene.control.behavior.*;
 import com.sun.javafx.scene.control.skin.BehaviorSkinBase;
 import javafx.animation.FadeTransition;

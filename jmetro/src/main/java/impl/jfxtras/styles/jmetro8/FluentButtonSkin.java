@@ -1,7 +1,7 @@
 package impl.jfxtras.styles.jmetro8;
 
-import com.sun.javafx.css.converters.BooleanConverter;
-import com.sun.javafx.scene.control.skin.ButtonSkin;
+import javafx.css.converter.BooleanConverter;
+import javafx.scene.control.skin.ButtonSkin;
 import javafx.beans.property.BooleanProperty;
 import javafx.css.CssMetaData;
 import javafx.css.SimpleStyleableBooleanProperty;
@@ -12,6 +12,8 @@ import javafx.scene.control.SkinBase;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import javafx.css.converter.BooleanConverter;
+import javafx.scene.control.skin.ButtonSkin;
 
 public class FluentButtonSkin extends ButtonSkin {
 
